@@ -21,3 +21,6 @@ sudo systemctl enable jenkins
 
 # Start Jenkins
 sudo systemctl start jenkins
+
+# Jenkins In Docker Group
+sudo usermod aG docker jeninks
